@@ -24,5 +24,12 @@ export default tseslint.config(
         { allowConstantExport: true },
       ],
     },
+
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+    },
   },
 )
