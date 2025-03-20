@@ -15,7 +15,7 @@ export default function CategorySection ({ category }: CategoryListProps) {
             const icon =<Icon tech={tech}/>
             const spriteIcon = <SpriteIcon 
               svgIcon={
-                iconsArr.find(sprite => sprite.id==`${tech.icon}-usage`)
+                iconsArr.find(sprite => sprite.id==`${tech.iconName}-usage`)
               }
             />
             return(

@@ -10,9 +10,10 @@ export type SkillList = Skill[];
 
 export type TechItem = {
     name: string;
-    type: string;
+    type: 'fa' | 'text' | 'sprite';
     color?: string;
-    icon: IconName;
+    iconName?: IconName;
+    sprite?: string;
 };
 
 export type TechCategory = {
