@@ -1,3 +1,5 @@
+@use "base";
+
 .contact {
     grid-row: 2/3;
     width: 100%;
@@ -7,7 +9,7 @@
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
-    color: $white;
+    color: base.$white;
 
     &-title {
         align-self: end;

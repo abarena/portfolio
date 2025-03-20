@@ -1,3 +1,5 @@
+@use "base";
+
 .projects {
     grid-row: 2/3;
     width: 100%;
@@ -7,7 +9,7 @@
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
-    color: $white;
+    color: base.$white;
 
     &-title {
         grid-row: 1/2;
@@ -26,7 +28,7 @@
         text-align: center;
 
         &--link {
-            color: $white;
+            color: base.$white;
             text-decoration: none;
         }
     }
@@ -47,22 +49,22 @@
                     margin-bottom: 1.7rem;
                     font-size: 2.2rem;
                     font-weight: 300;
-                    color: $white;
+                    color: base.$white;
                 }
     
                 .projects__list{
-                    @media only screen and (max-width: $bp-small) {
+                    @media only screen and (max-width: base.$bp-small) {
                         width: 90vw;
                     }
-                    @media only screen and (min-width: $bp-small) and ( max-width: $bp-medium) {
+                    @media only screen and (min-width: base.$bp-small) and ( max-width: base.$bp-medium) {
                         width: 75vw;
                     }
         
-                    @media only screen and (min-width: $bp-medium) and ( max-width: $bp-largest) {
+                    @media only screen and (min-width: base.$bp-medium) and ( max-width: base.$bp-largest) {
                         width: 70vw;
                     }
         
-                    @media only screen and (min-width: $bp-largest) {
+                    @media only screen and (min-width: base.$bp-largest) {
                         width: 48vw;
                     }
                     &-item{
@@ -79,14 +81,14 @@
                             font-weight: 300;
                             line-height: 2rem;
                             white-space: nowrap;
-                            color: $white;
+                            color: base.$white;
                             margin: 0 1rem;
                         }
                         &-repo, 
                         &-demo{
                             font-size: 1.6rem;
                             font-weight: 300;
-                            color: $white;
+                            color: base.$white;
                             text-decoration: none;
                             padding: 0 1rem;
                             margin: 0 1rem;

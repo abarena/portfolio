@@ -1,7 +1,9 @@
+@use "base";
+
 .headline{
     align-self: center;
     grid-row: 1 / 2;
-    color: $white;
+    color: base.$white;
 
     &__title {
         font-size: 3rem;
