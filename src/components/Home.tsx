@@ -30,7 +30,7 @@ export default function Home() {
                 <section className="social">
                     <h2 className="social-title">find me in</h2>
                     <ul className="social-list">
-                        {socialListItems.map((item) => <SocialListItem item={item} />)}
+                        {socialListItems.map((item) => <SocialListItem key={item.id} item={item} />)}
                     </ul>
                 </section>
             </main>

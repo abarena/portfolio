@@ -1,12 +1,12 @@
 import { SkillList, TechCategoryList } from "../../models/tech";
 import { SVGIcon } from "../../models/icon";
 
-import bootstrap from '../icons/bootstrap4.svg';
-import express from '../icons/express.svg';
-import socketio from '../icons/socketio.svg'
-import webpack from '../icons/webpack.svg';
-import babel from '../icons/babel.svg';
-import photoshop from '../icons/photoshop.svg';
+import bootstrap from '../../icons/bootstrap4.svg';
+import express from '../../icons/express.svg';
+import socketio from '../../icons/socketio.svg'
+import webpack from '../../icons/webpack.svg';
+import babel from '../../icons/babel.svg';
+import photoshop from '../../icons/photoshop.svg';
 
 export const iconsArr: SVGIcon[] = [
   bootstrap as SVGIcon,
