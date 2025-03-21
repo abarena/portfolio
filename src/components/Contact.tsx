@@ -1,8 +1,21 @@
+
+import { useRef } from 'react';
+import { CSSTransition } from 'react-transition-group';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+
 export default function Contact() {
+    const nodeRef = useRef(null);
+
     return (
-            <main className="contact">
+        <CSSTransition
+            in={true}
+            appear={true}
+            timeout={300}
+            classNames="fade"
+            nodeRef={nodeRef}
+        >
+            <main className="contact" ref={nodeRef}>
                 <h1 className="contact-title">Contact</h1>
                 <section className="contact-info">
                     <div className="contact-info--mail">
@@ -13,5 +26,6 @@ export default function Contact() {
                     </div>
                 </section>
             </main>
+        </CSSTransition>
     );
 }

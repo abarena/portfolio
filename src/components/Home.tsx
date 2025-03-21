@@ -1,3 +1,5 @@
+import { useRef } from 'react';
+import { CSSTransition } from 'react-transition-group';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { SocialItem } from '../types/social';
 import { socialListItems } from '../constants';
@@ -18,9 +20,11 @@ const SocialListItem = ({ item }: SocialItemProps) => {
 
 
 export default function Home() {
+    const nodeRef = useRef(null);
 
     return(
-            <main className="home">
+        <CSSTransition nodeRef={nodeRef} in={true} appear={true} timeout={300} classNames="fade">
+            <main ref={nodeRef} className="home">
                 <section className="headline">
                     <h1 className="headline__title">I'm Angel Barena</h1>
                     <h3 className="headline__subtitle">I make websites and applications</h3>
@@ -31,6 +35,7 @@ export default function Home() {
                         {socialListItems.map((item) => <SocialListItem key={item.id} item={item} />)}
                     </ul>
                 </section>
-            </main> 
+            </main>
+        </CSSTransition> 
     );
 }
