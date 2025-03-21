@@ -1,18 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import ViteSvgSpriteWrapper from 'vite-svg-sprite-wrapper';
+import VitePluginSvgSpritemap from '@spiriit/vite-plugin-svg-spritemap'
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react(),
-    ViteSvgSpriteWrapper({
-      icons: 'src/icons/*.svg',
-      outputDir: 'public',
-      generateType: true,
-      typeName: 'SpriteName',
-      typeFileName: 'SVG',
-      typeOutputDir: './src/types',
-    })
+    VitePluginSvgSpritemap('./src/icons/*.svg'),
   ],
 })

@@ -2,8 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { TechItem } from '../../models/tech';
 import SpriteIcon from './SpriteIcon';
 import { useMemo } from 'react';
-import { iconsArr } from './constants';
-
 
 type IconProps = {
     tech: TechItem;
@@ -26,16 +24,7 @@ export default function Icon({ tech }: IconProps) {
     }
 
     if (tech.type === "sprite" && tech.sprite) {
-        const icon = iconsArr.find(icon => icon.name === tech.sprite);
-
-        if (!icon) {
-            console.error(`Icon not found for sprite: ${tech.sprite}`);
-            return null;
-        }
-
-        console.log(icon.svg)
-
-        return <SpriteIcon icon={icon}/>;
+        return <SpriteIcon spriteName={tech.sprite}/>;
     }
     
 

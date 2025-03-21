@@ -1,41 +1,5 @@
 import { SkillList, TechCategoryList } from "../../models/tech";
 
-import bootstrap from '../../icons/bootstrap4.svg?url';
-import express from '../../icons/express.svg';
-import socketio from '../../icons/socketio.svg'
-import webpack from '../../icons/webpack.svg';
-import babel from '../../icons/babel.svg';
-import photoshop from '../../icons/photoshop.svg';
-import { SVGIcon } from "../../types/SVGIcon";
-
-export const iconsArr: SVGIcon[] = [
-  {
-    name: 'bootstrap4',
-    svg: bootstrap,
-  },
-  {
-    name: 'express',
-    svg: express
-  },
-  {
-    name: 'socketio',
-    svg: socketio
-  },
-  {
-    name: 'webpack',
-    svg: webpack
-  },
-  {
-    name: 'babel',
-    svg: babel
-  },
-  {
-    name: 'photoshop',
-    svg: photoshop
-  },
-];
-
-
 export const summary = [
   `I’m a Web Developer, I’ve worked in software engineering since 2014. 
   I got my first IT job at Accenture, where I worked mostly as a Junior Programmer and QA Tester. 

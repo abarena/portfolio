@@ -1,15 +1,14 @@
-import { SVGIcon } from "../../types/SVGIcon";
-import sprite from '/sprite.svg';
+import { SpriteName } from "../../types/SVGIcon";
 
 type SpriteIconProps = {
-    icon: SVGIcon;
+    spriteName: SpriteName;
     color?: string;
 };
 
-export default function SpriteIcon({ icon }: SpriteIconProps) {
+export default function SpriteIcon({ spriteName }: SpriteIconProps) {
     return (
         <svg className="tech-list__item__icon">
-            <use href={`${sprite}#${icon.name}`}/>
+            <use href={`/__spritemap#sprite-${spriteName}`}/>
         </svg>
     );
 };

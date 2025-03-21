@@ -1,6 +1,1 @@
-import { SpriteName } from "./SVG";
-
-export type SVGIcon = {
-  name: SpriteName;
-  svg: string;
-}
+export type SpriteName = 'ab-logo' | 'ab-logo2' | 'babel' | 'bootstrap4' | 'express' | 'photoshop' | 'socketio' | 'webpack'
