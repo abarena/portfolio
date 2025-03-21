@@ -6,6 +6,6 @@ import VitePluginSvgSpritemap from '@spiriit/vite-plugin-svg-spritemap'
 export default defineConfig({
   plugins: [
     react(),
-    VitePluginSvgSpritemap('./src/icons/*.svg'),
+    VitePluginSvgSpritemap('./src/assets/icons/*.svg'),
   ],
 })
