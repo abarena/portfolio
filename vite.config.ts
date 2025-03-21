@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     VitePluginSvgSpritemap('./src/assets/icons/*.svg'),
   ],
+  base: '/portfolio',
 })

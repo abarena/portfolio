@@ -47,7 +47,7 @@ export default function App() {
     <BrowserRouter>
       <div className="container">
           <Routes>
-            <Route element={<NavBar />}>
+            <Route path="portfolio" element={<NavBar />}>
               <Route index element={<Home/>}/>
               <Route path="about" element={<About/>}/>
               <Route path="projects" element={<Projects/>}/>

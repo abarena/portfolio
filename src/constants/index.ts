@@ -1,20 +1,22 @@
 import { NavListItems } from "../types/navigation";
 import { SocialListItems } from "../types/social";
 
-export const navListItems : NavListItems = [
+export const routingPrefix = '/portfolio';
+
+export const navListItems: NavListItems = [
   {
     name: 'about',
-    href: '/about'
+    href: `${routingPrefix}/about`
   },
   {
-      name: 'projects',
-      href: '/projects'
+    name: 'projects',
+    href: `${routingPrefix}/projects`
   },
   {
-      name: 'contact',
-      href: '/contact'
+    name: 'contact',
+    href: `${routingPrefix}/contact`
   }
-]
+];
 
 export const socialListItems: SocialListItems = [
   {
