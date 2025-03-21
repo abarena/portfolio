@@ -1,5 +1,5 @@
 import { Link, NavLink, Outlet } from 'react-router';
-import { NavItem } from '../models/navigation';
+import { NavItem } from '../types/navigation';
 import { navListItems } from '../constants';
 
 type ListItemProps = {

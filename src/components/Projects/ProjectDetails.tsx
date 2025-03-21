@@ -1,4 +1,4 @@
-import { ProjectData } from "../../models/projects";
+import { ProjectData } from "../../types/projects";
 
 type ProjectDetailsProps = {
   projectData: ProjectData;

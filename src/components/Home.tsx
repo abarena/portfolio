@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { SocialItem } from '../models/social';
+import { SocialItem } from '../types/social';
 import { socialListItems } from '../constants';
 
 type SocialItemProps = {

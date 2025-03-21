@@ -1,5 +1,5 @@
-import { NavListItems } from "../models/navigation";
-import { SocialListItems } from "../models/social";
+import { NavListItems } from "../types/navigation";
+import { SocialListItems } from "../types/social";
 
 export const navListItems : NavListItems = [
   {

@@ -1,4 +1,4 @@
-import { ProjectCategory } from "../../models/projects";
+import { ProjectCategory } from "../../types/projects";
 
 export const projects: ProjectCategory[] = [
     {
