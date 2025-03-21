@@ -50,9 +50,9 @@ export default function App() {
             <Route element={<NavBar />}>
               <Route index element={<Home/>}/>
               <Route path="about" element={<About/>}/>
-              <Route path="/projects" element={<Projects/>}/>
+              <Route path="projects" element={<Projects/>}/>
               <Route path="contact" element={<Contact/>}/>
-              <Route element={<NotFound/>}/>
+              <Route path="*" element={<NotFound/>}/>
             </Route>
           </Routes>
       </div>

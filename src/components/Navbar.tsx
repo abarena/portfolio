@@ -11,7 +11,7 @@ const ListItem = ({ item }: ListItemProps) => {
         <li key={item.name} className="nav-list__item">
             <NavLink
                 className={({ isActive }) => isActive
-                    ? 'active'
+                    ? 'active nav-list__item__link'
                     : 'nav-list__item__link'
                 }
                 to={`${item.href}`}
