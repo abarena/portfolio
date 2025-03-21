@@ -1,9 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {CSSTransition} from 'react-transition-group';
 
 export default function Contact() {
     return (
-        <CSSTransition in={true} appear={true} timeout={300} classNames="fade">
             <main className="contact">
                 <h1 className="contact-title">Contact</h1>
                 <section className="contact-info">
@@ -15,6 +13,5 @@ export default function Contact() {
                     </div>
                 </section>
             </main>
-        </CSSTransition>
     );
 }

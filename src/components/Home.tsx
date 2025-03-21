@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { CSSTransition } from 'react-transition-group';
 import { SocialItem } from '../models/social';
 import { socialListItems } from '../constants';
 
@@ -21,7 +20,6 @@ const SocialListItem = ({ item }: SocialItemProps) => {
 export default function Home() {
 
     return(
-        <CSSTransition in={true} appear={true} timeout={300} classNames="fade">
             <main className="home">
                 <section className="headline">
                     <h1 className="headline__title">I'm Angel Barena</h1>
@@ -33,7 +31,6 @@ export default function Home() {
                         {socialListItems.map((item) => <SocialListItem key={item.id} item={item} />)}
                     </ul>
                 </section>
-            </main>
-        </CSSTransition>    
+            </main> 
     );
 }

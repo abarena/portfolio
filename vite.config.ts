@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     ViteSvgSpriteWrapper({
       icons: 'src/icons/*.svg',
-      outputDir: './src/',
+      outputDir: 'public',
       generateType: true,
       typeName: 'SpriteName',
       typeFileName: 'SVG',

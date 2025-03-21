@@ -24,7 +24,7 @@ const ListItem = ({ item }: ListItemProps) => {
 
 export default function NavBar() {
     return(
-        <div>
+        <>
             <nav className="nav">
                 <div className="nav-logo">
                     <Link to={`/`} className="nav-logo__link">
@@ -46,6 +46,6 @@ export default function NavBar() {
                 </ul>           
             </nav>
             <Outlet/>
-        </div>
+        </>
     );
 }

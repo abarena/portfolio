@@ -1,14 +1,15 @@
-import { SVGIcon } from "../../models/icon";
+import { SVGIcon } from "../../types/SVGIcon";
+import sprite from '/sprite.svg';
 
 type SpriteIconProps = {
-    svgIcon?: SVGIcon;
+    icon: SVGIcon;
     color?: string;
 };
 
-export default function SpriteIcon({ svgIcon }: SpriteIconProps) {
+export default function SpriteIcon({ icon }: SpriteIconProps) {
     return (
-        svgIcon && <svg viewBox={svgIcon.viewBox} className="tech-list__item__icon">
-            <use xlinkHref={svgIcon.xlinkHref}/>
+        <svg className="tech-list__item__icon">
+            <use href={`${sprite}#${icon.name}`}/>
         </svg>
     );
 };

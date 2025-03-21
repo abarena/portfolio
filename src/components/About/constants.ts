@@ -1,20 +1,38 @@
 import { SkillList, TechCategoryList } from "../../models/tech";
-import { SVGIcon } from "../../models/icon";
 
-import bootstrap from '../../icons/bootstrap4.svg';
+import bootstrap from '../../icons/bootstrap4.svg?url';
 import express from '../../icons/express.svg';
 import socketio from '../../icons/socketio.svg'
 import webpack from '../../icons/webpack.svg';
 import babel from '../../icons/babel.svg';
 import photoshop from '../../icons/photoshop.svg';
+import { SVGIcon } from "../../types/SVGIcon";
 
 export const iconsArr: SVGIcon[] = [
-  bootstrap as SVGIcon,
-  express as SVGIcon,
-  socketio as SVGIcon,
-  webpack as SVGIcon,
-  babel as SVGIcon,
-  photoshop as SVGIcon
+  {
+    name: 'bootstrap4',
+    svg: bootstrap,
+  },
+  {
+    name: 'express',
+    svg: express
+  },
+  {
+    name: 'socketio',
+    svg: socketio
+  },
+  {
+    name: 'webpack',
+    svg: webpack
+  },
+  {
+    name: 'babel',
+    svg: babel
+  },
+  {
+    name: 'photoshop',
+    svg: photoshop
+  },
 ];
 
 
@@ -55,7 +73,7 @@ export const techList: TechCategoryList = [
               name: "EJS templates",
               type: "text",
               color: "#000",
-              sprite: "EJS"
+              text: "EJS"
           }
       ]
   },

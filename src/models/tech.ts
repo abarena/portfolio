@@ -1,4 +1,5 @@
 import { IconName } from "@fortawesome/fontawesome-svg-core";
+import { SpriteName } from "../types/SVG";
 
 export type Skill = {
     id: number;
@@ -13,7 +14,8 @@ export type TechItem = {
     type: 'fa' | 'text' | 'sprite';
     color?: string;
     iconName?: IconName;
-    sprite?: string;
+    sprite?: SpriteName;
+    text?: string;
 };
 
 export type TechCategory = {

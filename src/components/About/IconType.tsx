@@ -16,19 +16,31 @@ export default function IconType({ tech }: IconTypeProps) {
       fontWeight: "bold",
   }), [tech.color]);
   
-  switch (tech.type) {
-    case "text":
-      return <div className="tech-list__item__icon"style={style}>
-        {tech.icon}
-      </div>;
-    case "sprite":
-      return <SpriteIcon svgIcon={
-        iconsArr.find(sprite => sprite.id==`${tech.icon}-usage`)
-      }/>;
-
-    default:
-      return <FontAwesomeIcon icon={['fab', tech.icon]} 
-        className="tech-list__item__icon"
-        style={{color: tech.color}}/>;
+  if (tech.type === "text") {
+    return (
+      <div className="tech-list__item__icon" style={style}>
+        {tech.sprite}
+      </div>
+    );
   }
+
+  if (tech.type === "sprite") {
+    return (
+      <SpriteIcon
+        svgIcon={iconsArr.find(sprite => sprite.id === `${tech.sprite}-usage`)}
+      />
+    );
+  }
+
+  if (tech.type === "fa" && tech.iconName) {
+    return (
+      <FontAwesomeIcon
+        icon={['fab', tech.iconName]}
+        className="tech-list__item__icon"
+        style={{ color: tech.color }}
+      />
+    );
+  }
+
+  return null;
 }
