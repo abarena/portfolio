@@ -1,5 +1,5 @@
 import { IconName } from "@fortawesome/fontawesome-svg-core";
-import { SpriteName } from "../types/SVGIcon";
+import { SpriteName } from "../types/icon";
 
 export type Skill = {
     id: number;

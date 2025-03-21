@@ -1,4 +1,4 @@
-import { SpriteName } from "../../types/SVGIcon";
+import { SpriteName } from "../../types/icon";
 
 type SpriteIconProps = {
     spriteName: SpriteName;
