@@ -1,4 +1,4 @@
-import { TechCategory } from "../../models/tech";
+import { TechCategory } from "../../types/tech";
 import Icon from "./Icon";
 
 type CategoryListProps = {

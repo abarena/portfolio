@@ -1,4 +1,4 @@
-import { SkillList, TechCategoryList } from "../../models/tech";
+import { SkillList, TechCategoryList } from "../../types/tech";
 
 export const summary = [
   `I’m a Web Developer, I’ve worked in software engineering since 2014. 

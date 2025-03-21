@@ -1,4 +1,4 @@
-import { SkillList } from "../../models/tech";
+import { SkillList } from "../../types/tech";
 
 type SkillsLvlProps = {
   skills: SkillList;

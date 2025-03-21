@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { TechItem } from '../../models/tech';
+import { TechItem } from '../../types/tech';
 import SpriteIcon from './SpriteIcon';
 import { useMemo } from 'react';
 

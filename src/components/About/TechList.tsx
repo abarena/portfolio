@@ -1,4 +1,4 @@
-import { TechCategoryList } from "../../models/tech";
+import { TechCategoryList } from "../../types/tech";
 import CategorySection from "./CategorySection";
 
 
