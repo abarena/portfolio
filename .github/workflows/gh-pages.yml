@@ -2,11 +2,8 @@
 name: Deploy to Github Pages
 
 on:
-  # Runs on pushes and pull request targeting the default branch
+  # Runs on pushes targeting the main branch
   push:
-    branches:
-      - main
-  pull_request:
     branches:
       - main
 
