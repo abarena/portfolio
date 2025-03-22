@@ -12,7 +12,7 @@ const SocialListItem = ({ item }: SocialItemProps) => {
     return (
         <li key={item.id} className="social-list__item">
             <a className="social-list__item__link" href={item.href} target="_blank">
-                <FontAwesomeIcon icon={['fab', item.iconName]}/>
+                <FontAwesomeIcon icon={[ 'fab', item.iconName ]} />
             </a>
         </li>
     );
@@ -22,7 +22,7 @@ const SocialListItem = ({ item }: SocialItemProps) => {
 export default function Home() {
     const nodeRef = useRef(null);
 
-    return(
+    return (
         <CSSTransition nodeRef={nodeRef} in={true} appear={true} timeout={300} classNames="fade">
             <main ref={nodeRef} className="home">
                 <section className="headline">
@@ -36,6 +36,6 @@ export default function Home() {
                     </ul>
                 </section>
             </main>
-        </CSSTransition> 
+        </CSSTransition>
     );
 }

@@ -13,7 +13,7 @@ export default function Icon({ tech }: IconProps) {
         fontSize: "3rem",
         lineHeight: "3.6rem",
         fontWeight: "bold",
-    }), [tech.color]);
+    }), [ tech.color ]);
 
     if (tech.type === "text" && tech.text) {
         return (
@@ -24,19 +24,19 @@ export default function Icon({ tech }: IconProps) {
     }
 
     if (tech.type === "sprite" && tech.sprite) {
-        return <SpriteIcon spriteName={tech.sprite}/>;
+        return <SpriteIcon spriteName={tech.sprite} />;
     }
-    
+
 
     if (tech.type === "fa" && tech.iconName) {
         return (
-          <FontAwesomeIcon
-            icon={['fab', tech.iconName]}
-            className="tech-list__item__icon"
-            style={{ color: tech.color }}
-          />
+            <FontAwesomeIcon
+                icon={[ 'fab', tech.iconName ]}
+                className="tech-list__item__icon"
+                style={{ color: tech.color }}
+            />
         );
-      }
-    
+    }
+
     return null;
 }

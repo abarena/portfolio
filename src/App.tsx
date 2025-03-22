@@ -18,18 +18,18 @@ import { faSass } from "@fortawesome/free-brands-svg-icons/faSass";
 import { faJs } from "@fortawesome/free-brands-svg-icons/faJs";
 import { faNodeJs } from "@fortawesome/free-brands-svg-icons/faNodeJs";
 import { faGit } from "@fortawesome/free-brands-svg-icons";
-import { faPhoneSquare }  from "@fortawesome/free-solid-svg-icons/faPhoneSquare";
+import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons/faPhoneSquare";
 import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons/faEnvelopeSquare";
 import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
-import { faExternalLinkAlt }  from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";
 
 
 library.add(
   faLinkedin,
   faGithub,
-  faCodepen, 
+  faCodepen,
   faPhoneSquare,
-  faEnvelopeSquare, 
+  faEnvelopeSquare,
   faCog,
   faExternalLinkAlt,
   faHtml5,
@@ -46,15 +46,15 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className="container">
-          <Routes>
-            <Route path="portfolio" element={<NavBar />}>
-              <Route index element={<Home/>}/>
-              <Route path="about" element={<About/>}/>
-              <Route path="projects" element={<Projects/>}/>
-              <Route path="contact" element={<Contact/>}/>
-              <Route path="*" element={<NotFound/>}/>
-            </Route>
-          </Routes>
+        <Routes>
+          <Route path="portfolio" element={<NavBar />}>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
       </div>
     </BrowserRouter>
   );

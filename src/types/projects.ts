@@ -8,4 +8,3 @@ export type ProjectCategory = {
   name: string;
   list: ProjectData[];
 };
-

@@ -8,128 +8,128 @@ export const summary = [
   `I’m an avid learner of front end development and web design. 
   I enjoy building web apps with fullstack javascript tech like MERN, 
   but I understand it’s not a perfect fit for every project.`,
-  `I like to lead a simple lifestyle, keep fit and nurture my mind and soul the best I can.`
+  `I like to lead a simple lifestyle, keep fit and nurture my mind and soul the best I can.`,
 ];
 
 export const skills: SkillList = [
-  {id:0, lvl:"90%", name:"Front-end Development"},
-  {id:1, lvl:"80%", name:"Back-end Development (NodeJS)"},
-  {id:2, lvl:"75%", name:"Web Design"}
+  { id: 0, lvl: "90%", name: "Front-end Development" },
+  { id: 1, lvl: "80%", name: "Back-end Development (NodeJS)" },
+  { id: 2, lvl: "75%", name: "Web Design" },
 ];
 
 export const techList: TechCategoryList = [
   {
-      name: "HTML",
-      list: [
-          {
-              name: "HTML5",
-              type: 'fa',
-              color: '#e44d26',
-              iconName: 'html5'
-          },
-          // {
-          //     name: "JSX",
-          //     type: 'fa',
-          //     color: '#61dbfb',
-          //     iconName: 'react'
-          // },
-          {   
-              name: "EJS templates",
-              type: "text",
-              color: "#000",
-              text: "EJS"
-          }
-      ]
+    name: "HTML",
+    list: [
+      {
+        name: "HTML5",
+        type: "fa",
+        color: "#e44d26",
+        iconName: "html5",
+      },
+      // {
+      //     name: "JSX",
+      //     type: 'fa',
+      //     color: '#61dbfb',
+      //     iconName: 'react'
+      // },
+      {
+        name: "EJS templates",
+        type: "text",
+        color: "#000",
+        text: "EJS",
+      },
+    ],
   },
   {
-      name: "CSS",
-      list:[
-          {
-              name: "CSS3",
-              type: 'fa',
-              color: '#146eb0',
-              iconName: 'css3-alt'
-          },
-          {
-              name: "Sass",
-              type: 'fa',
-              color: "#c66394",
-              iconName: "sass"
-          },
-          {
-              name: "Bootstrap",
-              type: "sprite",
-              sprite: "bootstrap4"
-          }
-      ]
+    name: "CSS",
+    list: [
+      {
+        name: "CSS3",
+        type: "fa",
+        color: "#146eb0",
+        iconName: "css3-alt",
+      },
+      {
+        name: "Sass",
+        type: "fa",
+        color: "#c66394",
+        iconName: "sass",
+      },
+      {
+        name: "Bootstrap",
+        type: "sprite",
+        sprite: "bootstrap4",
+      },
+    ],
   },
   {
-      name: "JavaScript",
-      list:[
-          {
-              name:"ES6",
-              type: "fa",
-              color: "#e8d44d",
-              iconName: "js"
-          },
-          {
-              name: "React.js",
-              type: 'fa',
-              color: '#61dbfb',
-              iconName: 'react'
-          }
-      ]
+    name: "JavaScript",
+    list: [
+      {
+        name: "ES6",
+        type: "fa",
+        color: "#e8d44d",
+        iconName: "js",
+      },
+      {
+        name: "React.js",
+        type: "fa",
+        color: "#61dbfb",
+        iconName: "react",
+      },
+    ],
   },
   {
-      name: "NodeJS",
-      list:[
-          {
-              name: "NodeJS",
-              type: 'fa',
-              color: '#80bc02',
-              iconName: 'node-js'
-          },
-          {
-              name: "Express.js",
-              type: 'sprite',
-              sprite: 'express'
-          },
-          {
-              name: "Socket.io",
-              type: 'sprite',
-              sprite: 'socketio'
-          }
-      ]
+    name: "NodeJS",
+    list: [
+      {
+        name: "NodeJS",
+        type: "fa",
+        color: "#80bc02",
+        iconName: "node-js",
+      },
+      {
+        name: "Express.js",
+        type: "sprite",
+        sprite: "express",
+      },
+      {
+        name: "Socket.io",
+        type: "sprite",
+        sprite: "socketio",
+      },
+    ],
   },
   {
-      name: "Build tools",
-      list: [
-          {
-              name: "Webpack",
-              type: "sprite",
-              sprite: "webpack"
-          },
-          {
-              name: "Babel",
-              type: "sprite",
-              sprite: "babel"
-          }
-      ]
+    name: "Build tools",
+    list: [
+      {
+        name: "Webpack",
+        type: "sprite",
+        sprite: "webpack",
+      },
+      {
+        name: "Babel",
+        type: "sprite",
+        sprite: "babel",
+      },
+    ],
   },
   {
-      name: "Other",
-      list:[
-          {
-              name: "Git",
-              type: 'fa',
-              color: '#000',
-              iconName: 'git'
-          },
-          {
-              name: "Photoshop",
-              type: "sprite",
-              sprite: "photoshop"
-          }
-      ]
-  }
+    name: "Other",
+    list: [
+      {
+        name: "Git",
+        type: "fa",
+        color: "#000",
+        iconName: "git",
+      },
+      {
+        name: "Photoshop",
+        type: "sprite",
+        sprite: "photoshop",
+      },
+    ],
+  },
 ];

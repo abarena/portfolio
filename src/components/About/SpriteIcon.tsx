@@ -16,8 +16,8 @@ const viewBoxMap: Record<SpriteName, string> = {
 
 export default function SpriteIcon({ spriteName }: SpriteIconProps) {
     return (
-        <svg viewBox={viewBoxMap[spriteName]} className="tech-list__item__icon">
-            <use href={`/__spritemap#sprite-${spriteName}`}/>
+        <svg viewBox={viewBoxMap[ spriteName ]} className="tech-list__item__icon">
+            <use href={`/__spritemap#sprite-${spriteName}`} />
         </svg>
     );
 };
