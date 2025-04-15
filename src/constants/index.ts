@@ -1,20 +1,18 @@
 import { NavListItems } from "../types/navigation";
 import { SocialListItems } from "../types/social";
 
-export const routingPrefix = "/portfolio";
-
 export const navListItems: NavListItems = [
   {
     name: "about",
-    href: `${routingPrefix}/about`,
+    href: `/about`,
   },
   {
     name: "projects",
-    href: `${routingPrefix}/projects`,
+    href: `/projects`,
   },
   {
     name: "contact",
-    href: `${routingPrefix}/contact`,
+    href: `/contact`,
   },
 ];
 
@@ -27,7 +25,7 @@ export const socialListItems: SocialListItems = [
   {
     id: "github",
     iconName: "github",
-    href: "https://github.com/Angel-Barena",
+    href: "https://github.com/abarena",
   },
   {
     id: "codepen",

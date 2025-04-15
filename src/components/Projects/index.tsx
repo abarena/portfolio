@@ -16,7 +16,7 @@ export default function Projects() {
                         <span> this section is work in progress...</span>
                     </div>
                     <a className="projects-placeholder--link"
-                        href="https://github.com/Angel-Barena/portfolio"
+                        href="https://github.com/abarena/portfolio"
                         target="_blank" >
                         <span>Meanwhile, you could take a look at this website's repo </span>
                         <FontAwesomeIcon icon="external-link-alt" />
