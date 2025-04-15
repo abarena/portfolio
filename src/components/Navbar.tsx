@@ -1,6 +1,6 @@
 import { Link, NavLink, Outlet } from 'react-router';
 import { NavItem } from '../types/navigation';
-import { navListItems, routingPrefix } from '../constants';
+import { navListItems } from '../constants';
 
 type ListItemProps = {
     item: NavItem;
@@ -27,7 +27,7 @@ export default function NavBar() {
         <>
             <nav className="nav">
                 <div className="nav-logo">
-                    <Link to={routingPrefix} className="nav-logo__link">
+                    <Link to="/" className="nav-logo__link">
                         <svg className="nav-logo__icon">
                             <defs>
                                 <mask id="mask" x="0" y="0" width="100%" height="100%">
