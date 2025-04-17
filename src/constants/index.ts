@@ -27,9 +27,4 @@ export const socialListItems: SocialListItems = [
     iconName: "github",
     href: "https://github.com/abarena",
   },
-  {
-    id: "codepen",
-    iconName: "codepen",
-    href: "https://codepen.io/angel_barena",
-  },
 ];
