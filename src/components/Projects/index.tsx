@@ -12,13 +12,12 @@ export default function Projects() {
                 <h1 className="projects-title">Projects</h1>
                 <section className="projects-placeholder">
                     <div className="projects-placeholder--spinner">
-                        <FontAwesomeIcon icon="cog" spin />
-                        <span> this section is work in progress...</span>
+                        <span>A collection of personal and capstone projects </span>
                     </div>
                     <a className="projects-placeholder--link"
                         href="https://github.com/abarena/portfolio"
                         target="_blank" >
-                        <span>Meanwhile, you could take a look at this website's repo </span>
+                        <span>If you're courios you could take a look at this website's repo </span>
                         <FontAwesomeIcon icon="external-link-alt" />
                     </a>
                 </section>

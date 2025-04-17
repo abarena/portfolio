@@ -2,7 +2,7 @@ import { ProjectCategory } from "../../types/projects";
 
 export const projects: ProjectCategory[] = [
   {
-    name: "React examples",
+    name: "React Projects",
     list: [
       {
         title: "PoC Jest & Enzyme Testing: ",
