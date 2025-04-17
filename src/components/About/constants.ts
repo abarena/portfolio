@@ -87,6 +87,11 @@ export const techList: TechCategoryList = [
         type: "sprite",
         sprite: "mobx",
       },
+      {
+        name: "MaterialUI",
+        type: "sprite",
+        sprite: "mui",
+      },
     ],
   },
   {

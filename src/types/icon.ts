@@ -1,6 +1,7 @@
 export type SpriteName =
   | "tailwind"
   | "typescript"
+  | "mui"
   | "redux"
   | "mobx"
   | "nextjs"

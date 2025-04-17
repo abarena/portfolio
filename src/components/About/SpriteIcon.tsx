@@ -14,6 +14,7 @@ const viewBoxMap: Record<SpriteName, string> = {
     tailwind: "0 0 128 128",
     nextjs: "0 0 128 128",
     mobx: "0 0 128 128",
+    mui: "0 0 128 128",
     typescript: "0 0 128 128",
     redux: "0 0 128 128",
     nestjs: "0 0 128 128",
