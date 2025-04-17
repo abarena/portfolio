@@ -27,7 +27,7 @@ export default function Home() {
             <main ref={nodeRef} className="home">
                 <section className="headline">
                     <h1 className="headline__title">I'm Angel Barena</h1>
-                    <h3 className="headline__subtitle">I make websites and applications</h3>
+                    <h3 className="headline__subtitle">I like building web apps</h3>
                 </section>
                 <section className="social">
                     <h2 className="social-title">find me in</h2>
