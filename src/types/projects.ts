@@ -1,7 +1,7 @@
 export type ProjectData = {
   title: string;
   repo: string;
-  demo: string;
+  demo?: string;
 };
 
 export type ProjectCategory = {
