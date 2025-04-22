@@ -2,7 +2,29 @@ import { ProjectCategory } from "../../types/projects";
 
 export const projects: ProjectCategory[] = [
   {
-    name: "React Projects",
+    name: "Capstone Project: Full Stack E-commerce App",
+    list: [
+      {
+        title: "Frontend: Next.js + MUI + Tailwind CSS + Stripe",
+        repo: "https://github.com/abarena/shoppy-ui",
+      },
+      {
+        title: "Backend: NestJS + Prisma + PostgreSQL + Socket.io",
+        repo: "https://github.com/abarena/shoppy-backend",
+      },
+    ],
+  },
+  {
+    name: "Capstone Project: Full Stack Post App",
+    list: [
+      {
+        title: "FE & BE: Next.js + Shadcn + Zod + Prisma + MongoDB",
+        repo: "https://github.com/abarena/posty",
+      },
+    ],
+  },
+  {
+    name: "Legacy React apps",
     list: [
       {
         title: "PoC Jest & Enzyme Testing: ",

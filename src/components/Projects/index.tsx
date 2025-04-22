@@ -17,7 +17,7 @@ export default function Projects() {
                     <a className="projects-placeholder--link"
                         href="https://github.com/abarena/portfolio"
                         target="_blank" >
-                        <span>If you're courios you could take a look at this website's repo </span>
+                        <span>This website's repo </span>
                         <FontAwesomeIcon icon="external-link-alt" />
                     </a>
                 </section>
